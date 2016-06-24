@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MrGeseR/stellar#readme",
   "devDependencies": {
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "stylus": "^0.54.5"
   }
 }
