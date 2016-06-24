@@ -1,0 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700'
+@import 'assets/grid.styl'
+@import 'blocks/header/header.styl'
+// @import 'blocks/navigation'
+// @import 'blocks/interactive'
+// @import 'blocks/about'
+// @import 'blocks/advertising/'
+// @import 'blocks/contacts/'
+// @import 'blocks/footer/'
+*
+  box-sizing border-box
+html
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size 16px
+  color rgba(white, 0.65)
+body
+  background -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%)
+  background -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%)
+  background linear-gradient(45deg, #e37682 15%, #5f4d93 85%)
+  margin 0
+.simple_link
+  color rgba(white, 0.65)
+  text-decoration none
+  border-bottom 1px dotted
+  transition 0.3s
+  &:hover,&:active,&:focus
+    color white
+    border-bottom 1px dotted transparent
