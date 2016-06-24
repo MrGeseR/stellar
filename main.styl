@@ -3,7 +3,8 @@
 @import 'particles/index.styl'
 @import 'blocks/header/header.styl'
 @import 'blocks/navigation/navigation.styl'
-// @import 'blocks/interactive'
+@import 'blocks/interactive/interactive.styl'
+@import 'blocks/sectionHeader/sectionHeader.styl'
 // @import 'blocks/about'
 // @import 'blocks/advertising/'
 // @import 'blocks/contacts/'
@@ -14,12 +15,15 @@ html
   font-family: 'Source Sans Pro', sans-serif;
   font-size 17pt
   color rgba(white, 0.65)
+  font-weight 300
 body
   background -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%)
   background -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%)
   background linear-gradient(45deg, #e37682 15%, #5f4d93 85%)
   margin 0
 
+p
+  margin 0 0 2em 0
 .main__content
   width 64rem
   max-width 95%
