@@ -1,0 +1,12 @@
+doubleBorder(width, color, indent)
+  position relative
+  border width solid color
+  &:after
+    content ''
+    position absolute
+    top - indent
+    left - indent
+    right - indent
+    bottom - indent
+    border width solid color
+    border-radius inherit
