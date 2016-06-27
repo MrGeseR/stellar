@@ -1,0 +1,43 @@
+.statistics
+  @extend $content
+  &__description
+    // column-width 45%
+    column-count 2
+    column-gap 2em
+    text-align justify
+    
+  &__item
+    text-align center
+  
+.statisticBoard
+  display block
+  list-style none
+  font-size 2rem
+  margin-bottom 3rem
+  &__value
+    font-size 1.6rem
+    font-weight 300
+    color white
+    margin 0
+    letter-spacing -0.025rem
+  &__description
+    font-size 1rem
+    margin 0
+  &__item
+    display inline-block
+    padding 1.5rem
+    color #fff
+    text-align center
+    width 20%
+    &_pink
+      background-color #efa8b0
+      border-radius 0.5rem 0 0 0.5rem
+    &_purple
+      background-color #c79cc8
+    &_lilac
+      background-color #a89cc8
+    &_blue
+      background-color #9bb2e1
+    &_lightblue
+      background-color #8cc9f0
+      border-radius 0 0.5rem 0.5rem 0
